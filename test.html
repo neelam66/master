@@ -123,7 +123,6 @@
                         <p>Everything that we need to make business intelligence</p>
                     </div>
                 </div>
-               
                 <div class="row desc-main">
                     <div class="col-sm-6 app-resp">
 
@@ -139,7 +138,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-6 device app-resp" >
+                    <div class="col-sm-6 device app-resp">
 
                         <div class="row ">
                             <div class="col-sm-3 _box">
@@ -155,8 +154,6 @@
                     </div>
 
                 </div>
-                
-                
             </div>
         </div>
 
@@ -268,12 +265,12 @@
                 </div>
 
                 <div class="buttons">
-                   
-                    <input type="submit" class="project btn btn-default active" value="All" id="all" >
-                    <input type="submit" class="btn btn-default" value="Mobile App" id="mobile">
-                    <input style="background-color: white;" type="submit" class="btn btn-default" value="Identities">
-                    <input type="submit" class="btn btn-default" value="Interior Design">
-                    <input type="submit" class="btn btn-default" value="UI/UX">
+
+                    <input id="all" type="submit" class="btn btn-default" value="All">
+                    <input id="MobileApp" type="submit" class="btn btn-default" value="Mobile App">
+                    <input id="Identities" style="background-color: white;" type="submit" class="btn btn-default" value="Identities">
+                    <input id="Interior" type="submit" class="btn btn-default" value="Interior Design">
+                    <input id="UI" type="submit" class="btn btn-default" value="UI/UX">
 
                 </div>
             </div>
@@ -283,9 +280,9 @@
 
         <div class="container-fluid identities">
             <div class="row con">
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="MobileApp1">
                     <div class="product-img-sec">
-                        <div class="image mobile">
+                        <div class="image">
                             <img class="img-responsive img-p-align" src="ibhaar.jpg" alt="name">
                         </div>
                         <div class="product__social">
@@ -294,9 +291,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="MobileApp2">
                     <div class="product-img-sec">
-                        <div class="image mobile">
+                        <div class="image">
                             <img class="img-responsive img-p-align" src="soccer.jpg" alt="name">
                         </div>
                         <div class="product__social">
@@ -305,7 +302,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="Identities1">
                     <div class="product-img-sec">
                         <div class="image">
                             <img class="img-responsive img-p-align" src="house.jpg" alt="name">
@@ -316,7 +313,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="Identities2">
                     <div class="product-img-sec">
                         <div class="image">
                             <img class="img-responsive img-p-align" src="muafa.jpg" alt="name">
@@ -329,7 +326,7 @@
                 </div>
             </div>
             <div class="row con">
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="Interior1">
                     <div class="product-img-sec">
                         <div class="image">
                             <img class="img-responsive img-p-align" src="access.jpg" alt="name">
@@ -340,7 +337,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="Interior2">
                     <div class="product-img-sec">
                         <div class="image">
                             <img class="img-responsive img-p-align" src="eye.jpg" alt="name">
@@ -351,7 +348,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="UI1">
                     <div class="product-img-sec">
                         <div class="image">
                             <img class="img-responsive img-p-align" src="cloud.jpg" alt="name">
@@ -362,7 +359,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 prod-resp">
+                <div class="col-sm-3 prod-resp" id="UI2">
                     <div class="product-img-sec">
                         <div class="image">
                             <img class="img-responsive img-p-align" src="muafa1.jpg" alt="name">
@@ -520,7 +517,7 @@
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script src="./slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
-   $(document).on('ready', function() {
+    $(document).on('ready', function() {
   
       $(".variable").slick({
         infinite: true,
@@ -528,8 +525,8 @@
         slidesToScroll: 1
       });
     });
-   
 </script>
+
 
 
 <!-- <div>
