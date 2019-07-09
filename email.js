@@ -3,48 +3,60 @@ function myFunction() {
     document.getElementById("demo").innerHTML = x;
   }
 
-
-  $("#filter button").each(function() {
-    $(this).on("click", function(){
-        var filtertag = $(this).attr('class');
-        $('.post').show();
-        $('.post:not(.' + filtertag + ')').hide();
+  $(document).ready(function(){
+    $("#all").click(function(){
+        $("#MobileApp1").show();
+		$("#MobileApp2").show();
+		$("#Identities1").show();
+		$("#Identities2").show();
+		$("#Interior1").show();
+		$("#Interior2").show();
+		$("#UI1").show();
+		$("#UI2").show();
     });
+  $("#MobileApp").click(function(){
+        $("#MobileApp1").show();
+		$("#MobileApp2").show();
+		$("#Identities1").hide();
+		$("#Identities2").hide();
+		$("#Interior1").hide();
+		$("#Interior2").hide();
+		$("#UI1").hide();
+		$("#UI2").hide();
+    });
+ $("#Identities").click(function(){
+        $("#MobileApp1").hide();
+		$("#MobileApp2").hide();
+		$("#Identities1").show();
+		$("#Identities2").show();
+		$("#Interior1").hide();
+		$("#Interior2").hide();
+		$("#UI1").hide();
+		$("#UI2").hide();
+    });
+ $("#Interior").click(function(){
+        $("#MobileApp1").hide();
+		$("#MobileApp2").hide();
+		$("#Identities1").hide();
+		$("#Identities2").hide();
+		$("#Interior1").show();
+		$("#Interior2").show();
+		$("#UI1").hide();
+		$("#UI2").hide();
+    });
+ $("#UI").click(function(){
+        $("#MobileApp1").hide();
+		$("#MobileApp2").hide();
+		$("#Identities1").hide();
+		$("#Identities2").hide();
+		$("#Interior1").hide();
+		$("#Interior2").hide();
+		$("#UI1").show();
+		$("#UI2").show();
+    });	
 });
 
 
-
-
-
-//   $('#filter a').click(function() {
-//     if($(this).attr('rel')) {
-//         $('img-sec').hide().filter('[class="' + $(this).attr('rel') + '"]').show();
-//     } else {
-//         $('img-sec').show();
-//     }
-
-//     return false;
-// });
-
-
-
-
-
-  // $(document).ready(function() {
-  //   $(".project .btn").click(function () {
-  //       $(".project .btn").removeClass("active");
-  //       $(this).addClass("active");        
-  //     var showClass = this.id;
-  //     $('.product-img-sec').addClass('hidden');
-  
-  //     if( showClass == 'all'){
-  //       $('.product-img-sec').removeClass('hidden');
-  //     }else{
-  //       $('.product-img-sec.'+showClass).removeClass('hidden');
-  //     } 
-      
-  //   });
-  // });
 
   window.onload=function(){
     $slideshow = $('.slider').slick({
