@@ -94,6 +94,12 @@ html, body {
    
 }
    */
+   .lamp1{
+    margin-top:6%
+}
+.tree1{
+    margin-top:6%;
+}
 .pic{
     padding:5%;
     margin-left:10%;
@@ -378,9 +384,11 @@ button.btn.btn-success {
         top: 40px;
         left:70px;
     }
+    
     .lamp{
         text-align:center;
     }
+    
     .tree{
         text-align:center;
 		padding-top: 2em;
@@ -438,61 +446,68 @@ button.btn.btn-success {
   .prod-resp {
    margin-bottom:2em;
   }
+  .team-resp {
+    margin-bottom:2em;
+   }
+   .board-img {
+    text-align: center;
+    padding: 1em
+   }
+   .app-resp{
+    text-align: center;
+    padding: 1em
+   }
+   .product_logo {
+    text-align: center;
+}
+.slide-main{
+    margin-top: -28%;margin-right: 6%;
+    }
+
+    .team_logo {
+        text-align: center;
+    }
+    .footer__pages {
+        text-align: center;
+        margin-right: 0%;
+    }
+    .footer__social{
+        padding-bottom:1em;
+    }
+    .slick-arrow {
+       margin-top: -26px;
+    }
+    
+    .lamp{
+            margin-top: 6em;
+    }
+    .tree{
+            margin-top: 6em;
+    }
+    .bg-light {
+        background-color: #fff!important;
+    }
+    .ml-auto a{
+        color:black;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000;
+    }
+  }
+/* @media only screen and (max-width: 768px) {
+ 
 }
 @media only screen and (max-width: 768px) {
- .team-resp {
-   margin-bottom:2em;
-  }
-}
-@media only screen and (max-width: 768px) {
- .board-img {
-   text-align: center;
-   padding: 1em
-  }
+ 
 } 
 @media only screen and (max-width: 768px) {
- .app-resp{
-   text-align: center;
-   padding: 1em
-  }
+ 
 }
 @media only screen and (max-width: 768px) {
- .product_logo {
-    text-align: center;
-}
+ 
 }
 @media only screen and (max-width: 768px) {
- .slide-main{
-margin-top: -28%;margin-right: 6%;
-}
+ 
 }
 @media only screen and (max-width: 768px) {
- .team_logo {
-    text-align: center;
-}
-.footer__pages {
-    text-align: center;
-    margin-right: 0%;
-}
-.footer__social{
-    padding-bottom:1em;
-}
-.slick-arrow {
-   margin-top: -26px;
-}
-}
-.lamp{
-	    margin-top: 6em;
-}
-.tree{
-	    margin-top: 6em;
-}
-.bg-light {
-    background-color: #fff!important;
-}
-.ml-auto a{
-	color:black;
-}
-.navbar-light .navbar-nav .nav-link {
-    color: #000;
-}
+  */
